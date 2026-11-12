@@ -19,6 +19,9 @@
     "paths": {
       "@/*": ["src/*"]
     },
+    
+    // Agrega esta línea para silenciar la advertencia de baseUrl
+    "ignoreDeprecations": "6.0",
 
     /* Linting */
     "strict": true,
